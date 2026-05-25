@@ -1,7 +1,12 @@
 body {
-  background-image: url('background.svg');
-  background-size: cover;
-  background-position: center;
+  background-color: #0d1626;
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(201,168,76,0.12) 0px,
+    rgba(201,168,76,0.12) 2px,
+    transparent 2px,
+    transparent 40px
+  );
 }
 main {
   max-width: 1000px;
@@ -38,12 +43,7 @@ main {
 
 
 }
-body {
-  background-image: url('background.jpg');
-  background-size: cover;      
-  background-position: center; 
-  background-repeat: no-repeat;
-}
+
 
 .info {
   margin: 50;
@@ -202,11 +202,11 @@ body {
 }
 
 /* Mobile */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .about-container {
     flex-direction: column;
   }
-} 
+}  */
 
 
 /* committes */
@@ -275,7 +275,7 @@ body {
   color: rgba(255, 255, 255, 0.5);
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .about-container {
     flex-direction: column;
   }
@@ -284,7 +284,7 @@ body {
   .committees-grid {
     grid-template-columns: 1fr;
   }
-}
+} */
 
 #Secretariat {
   background-color: #0d1626;
@@ -329,8 +329,91 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   padding: 60px;
 }
-.Secretariat-grid .committee-card:last-child {
+/* .Secretariat-grid .committee-card:last-child {
   grid-column: 2 / 3;
+} */
+
+/* @media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+  }
+  .committees-grid {
+    grid-template-columns: 1fr;
+  }
+  .Secretariat-grid {
+    grid-template-columns: 1fr;
+  }
+} */
+
+#Contact {
+  background-color: #0d1626;
+  padding: 100px 20px;
+  border-top: 1px solid rgba(201, 168, 76, 0.3);
+}
+.contact-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 40px;
+}
+.contact-header {
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+.contact-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+.contact-label {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #C9A84C;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+.contact-heading span {
+  color: #C9A84C;
+  font-style: italic;
+}
+
+.contact-grid {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 40px;
+}
+.contact-card {
+  background-color: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(201, 168, 76, 0.2);
+  border-radius: 8px;
+  padding: 28px 20px;
+  text-align: center;
+}
+.contact-type {
+  font-family: Cinzel;
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: #C9A84C;
+}
+.contact-info {
+  font-family: Raleway;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.contact-info {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+.contact-info a {
+  color: #ffffff;
+  text-decoration: none;
 }
 @media (max-width: 768px) {
   .about-container {
@@ -342,4 +425,53 @@ body {
   .Secretariat-grid {
     grid-template-columns: 1fr;
   }
+  
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+footer {
+  background-color: #0a0f1e;
+  padding: 60px 20px;
+  text-align: center;
+  border-top: 1px solid rgba(201, 168, 76, 0.3);
+}
+.footer-container{
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 40px;
+}
+.footer-logo{
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  color: #C9A84C !important;
+  letter-spacing: 3px;
+}
+.footer-text{
+  font-family: Raleway;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer-links a {
+  color: #C9A84C;
+  text-decoration: none;
+  margin: 0 12px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.footer-copy {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 12px;
+  margin-top: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+.footer-links a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+a.contact-info:hover {
+  color: #ffffff;
+  text-decoration: underline;
 }
