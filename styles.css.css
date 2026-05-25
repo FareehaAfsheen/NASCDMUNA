@@ -1,0 +1,345 @@
+body {
+  background-image: url('background.svg');
+  background-size: cover;
+  background-position: center;
+}
+main {
+  max-width: 1000px;
+  margin: 0 auto;    /* ← this must be here to center the container */
+  padding: 60px 20px;
+}
+.text-white {
+  font-family: 'Playfair Display', serif;
+  font-size: 80px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.text-gold {
+  font-family: 'Playfair Display', serif;
+  font-size: 82px;
+  font-weight: 400;
+  font-style: italic;
+  color: #C9A84C;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  text-align: center;font-size: 28px;
+}
+.nascd{
+    color: rgba(255, 255, 255, 0.693);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+body {
+  background-image: url('background.jpg');
+  background-size: cover;      
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.info {
+  margin: 50;
+  padding: 50;
+  line-height: 1.2;
+  color: #ffffff90;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.8;
+  max-width: 1000px;
+}
+
+.btn-group {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.btn-one {
+  background-color: #C9A84C;
+  color: #1a2744;
+  padding: 14px 32px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+.btn-two {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 14px 32px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 13px;
+  border: 1px solid #ffffff;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #0d1626;
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.319);
+}
+
+.nav-logo {
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  color: #C9A84C !important;
+  letter-spacing: 3px;
+}
+
+.navbar-nav .nav-link {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff !important;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 0 16px !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #C9A84C !important;
+  transition: color 0.3s ease;
+}
+
+/* ── About Section ── */
+#about {
+  background-color: #0d1626;
+  padding: 100px 20px;
+  border-top: 1px solid rgba(201, 168, 76, 0.3);
+}
+
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.about-label {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #C9A84C;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.about-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+
+.about-heading span {
+  color: #C9A84C;
+  font-style: italic;
+}
+
+.about-desc {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.9;
+  margin-bottom: 16px;
+}
+
+/* Stats */
+.about-stats {
+  flex: 1;
+  min-width: 240px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.stat-box {
+  background-color: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(201, 168, 76, 0.2);
+  border-radius: 8px;
+  padding: 28px 20px;
+  text-align: center;
+}
+
+.stat-box h3 {
+  font-family: 'Cinzel', serif;
+  font-size: 32px;
+  color: #C9A84C;
+  margin: 0 0 6px;
+}
+
+.stat-box p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+  }
+} 
+
+
+/* committes */
+#Committees {
+  background-color: #0d1626;
+  padding: 100px 20px;
+  border-top: 1px solid rgba(201, 168, 76, 0.3);
+}
+
+.Committees-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 40px;
+}
+.Committees-header{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.committees-label {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #C9A84C;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+.committees-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+
+.committees-heading span {
+  color: #C9A84C;
+  font-style: italic;
+}
+
+.committees-grid {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: 1fr 1fr;
+  padding: 60px;
+}
+.committee-card {
+  background-color: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(201, 168, 76, 0.2);
+  border-radius: 8px;
+  padding: 28px 20px;
+  text-align: center;
+}
+.committee-card h4 {
+  font-family: Cinzel;
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: #C9A84C;
+}
+.committee-card p {
+  font-family: Raleway;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+  }
+
+  
+  .committees-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+#Secretariat {
+  background-color: #0d1626;
+  padding: 100px 20px;
+  border-top: 1px solid rgba(201, 168, 76, 0.3);
+}
+.Secretariat-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 40px;
+}
+.Secretariat-header {
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+.Secretariat-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+.Secretariat-label {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #C9A84C;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+.Secretariat-heading span {
+  color: #C9A84C;
+  font-style: italic;
+}
+
+.Secretariat-grid {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 60px;
+}
+.Secretariat-grid .committee-card:last-child {
+  grid-column: 2 / 3;
+}
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+  }
+  .committees-grid {
+    grid-template-columns: 1fr;
+  }
+  .Secretariat-grid {
+    grid-template-columns: 1fr;
+  }
+}
