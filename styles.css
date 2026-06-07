@@ -86,6 +86,7 @@ main {
   background-color: #0d1626;
   padding: 16px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.319);
+  z-index: 1000;
 }
 .nav-logo {
   font-family: 'Cinzel', serif;
